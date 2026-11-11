@@ -19,17 +19,28 @@ You need a free browser extension called **Tampermonkey**. It runs small scripts
 
 Go to [tampermonkey.net](https://www.tampermonkey.net/) and add it to your browser (Chrome, Edge, Firefox and others are supported).
 
-### Step 2: Install the script
+### Step 2: Allow scripts to run (Chrome and Edge only)
+
+Chrome and Edge block userscripts until you give Tampermonkey permission. **Skip this step if you use Opera, Opera GX or Firefox.**
+
+1. Right-click the Tampermonkey icon (the black square in your toolbar) and choose **Manage extension**.
+2. Turn on the **Allow User Scripts** switch.
+
+If you can't find that switch (older versions of Chrome), open `chrome://extensions` in a new tab (`edge://extensions` in Edge) and turn on **Developer mode** in the top-right corner instead.
+
+Without this step, the Tampermonkey icon stays greyed out on DuelingBook and nothing changes.
+
+### Step 3: Install the script
 
 Click this link:
 
-**[Install DuelingBook Custom Sleeves](https://raw.githubusercontent.com/izucem/db-custom-sleeves/main/duelingbook-sleeves.user.js)**
+**[Install DuelingBook Custom Sleeves](https://raw.githubusercontent.com/izucem/DB-Custom-Sleeves/main/duelingbook-sleeves.user.js)**
 
 Tampermonkey will open an install page. Click the **Install** button.
 
 > If nothing happens when you click the link, make sure Tampermonkey is installed and turned on, then try again.
 
-### Step 3: Refresh DuelingBook
+### Step 4: Refresh DuelingBook
 
 Reload the DuelingBook page. You should see a small **Sleeves** button in the **top-right corner** of the page.
 
@@ -59,8 +70,8 @@ Notes:
 
 ## Troubleshooting
 
-**I don't see the Sleeves button.**
-Check that Tampermonkey is turned on and that the script is switched on in the Tampermonkey menu, then refresh the page with Ctrl+F5 (Cmd+Shift+R on Mac).
+**I don't see the Sleeves button, or the Tampermonkey icon is greyed out.**
+In Chrome or Edge, make sure you turned on **Allow User Scripts** (Step 2 above). Then check that Tampermonkey is turned on and that the script is switched on in the Tampermonkey menu, and refresh the page with Ctrl+F5 (Cmd+Shift+R on Mac).
 
 **Both players have the same sleeve.**
 Make sure you do not have another sleeve-changing script or addon running at the same time, such as the sleeve changer in DuelingBook Custom Layout. Turn its sleeve option off, because two sleeve changers will fight over the same cards.
