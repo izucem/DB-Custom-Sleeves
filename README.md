@@ -19,9 +19,9 @@ You need a free browser extension called **Tampermonkey**. It runs small scripts
 
 Go to [tampermonkey.net](https://www.tampermonkey.net/) and add it to your browser (Chrome, Edge, Firefox and others are supported).
 
-### Step 2: Allow scripts to run (Chrome and Edge only)
+### Step 2: Step 2: Allow scripts to run (Chrome, Edge and similar browsers)
 
-Chrome and Edge block userscripts until you give Tampermonkey permission. **Skip this step if you use Opera, Opera GX or Firefox.**
+Chrome-based browsers like Chrome, Edge, Brave and Vivaldi may block userscripts until you give Tampermonkey permission. If you use Firefox or Opera, you can probably skip this step. Come back to it if the Tampermonkey icon is greyed out on DuelingBook.
 
 1. Right-click the Tampermonkey icon (the black square in your toolbar) and choose **Manage extension**.
 2. Turn on the **Allow User Scripts** switch.
